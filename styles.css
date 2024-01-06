@@ -1,0 +1,137 @@
+/* Reset some default styles */
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Sticky navigation bar */
+nav {
+    /* background-color: rgb(30, 28, 28); */
+    /* background-color: rgb(140, 168, 168);  */
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 20px; */
+    align-items: center;
+}
+nav .logo img {
+    height: 70px; /* Set the desired height for your logo */
+    /* padding: 10px 20px; */
+}
+nav ul {
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+    /* margin-right: 20px; */
+    padding-right: 40px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Domine', serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+nav ul li a:hover{
+    color: white;
+    text-decoration: dashed;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+nav .logo-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+nav .logo-name a{
+    /* color: #f00b51; */
+    color: black;
+    /* font-weight: bold; */
+    text-decoration: none;
+}
+.logo-name div{
+    margin-left: 10px;
+}
+
+.enquiry{
+    /* background-color: rgb(185, 221, 221); */
+    background-color: #f00b51;
+    padding: 7px;
+    border-radius: 4px;
+    color: black;
+}
+
+
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+
+/* Header */
+.home1 {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home1 h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40vh;
+    color: rgb(127, 161, 255);
+    font-size: 3.7vw;
+    text-align: center;
+    font-weight: 600;
+    background-image: url(images/istockphoto-1318801715-2048x2048.jpg);
+    /* background-image: radial-gradient(#553c9a, #ee4b2b); */
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;    
+}
+
+
+
+.bordered-heading {
+    border-bottom: 2px solid #f00b51; /* Adjust the border color and thickness as needed */
+    padding-bottom: 5px; /* Adjust the spacing between text and border as needed */
+    display: inline-block; /* Make the border only as wide as the text */
+}
+
+
+
+footer {
+    background-color: rgb(140, 168, 168);
+    /* background-color: #f00b51; Match the navigation bar color */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
