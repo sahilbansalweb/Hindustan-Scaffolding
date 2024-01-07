@@ -120,6 +120,30 @@ nav .logo-name a{
 
 
 
+.enquiry_now{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    /* background: url(images/5574064.jpg) no-repeat; */
+}
+
+.enquiry_now h1{
+    background: url(images/5574064.jpg) no-repeat;
+    background-position: 10vw center;
+    background-size: 25vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
 .bordered-heading {
     border-bottom: 2px solid #f00b51; /* Adjust the border color and thickness as needed */
     padding-bottom: 5px; /* Adjust the spacing between text and border as needed */
